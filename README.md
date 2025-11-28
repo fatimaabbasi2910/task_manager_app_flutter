@@ -1,16 +1,46 @@
-# task_manager
+### **3️⃣ Week 3 – Task Management App (README.md)**
 
-A new Flutter project.
+```markdown
+# Week 3: Task Management App
 
-## Getting Started
+## Overview
+This final project combines previous concepts into a functional task management app with:
+- Task addition, deletion, and completion
+- Persistent storage using `SharedPreferences`
+- Custom app bar and icons
+- Optional splash screen
 
-This project is a starting point for a Flutter application.
+## Features
+- **Home Screen:** Shows tasks in a `ListView`, allows marking complete or deleting tasks
+- **Add Task:** Action button in app bar to add tasks
+- **Data Persistence:** Tasks saved locally
+- **UI Enhancements:** Custom app bar, icons for actions
+- **Optional:** Splash screen at app launch
 
-A few resources to get you started if this is your first Flutter project:
+## Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/week3-task-app.git
+Open the project in VS Code or Android Studio.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Fetch dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+Copy code
+flutter pub get
+Run the app:
+
+bash
+Copy code
+flutter run
+Usage
+Open app to see task list.
+
+Add tasks using + button.
+
+Mark tasks as complete or delete them.
+
+Tasks remain saved on app restart.
+
+Notes
+Demonstrates combining navigation, state management, persistent storage, and UI enhancements in Flutter.
